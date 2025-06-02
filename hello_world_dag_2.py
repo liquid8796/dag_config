@@ -27,7 +27,7 @@ with DAG(
 
     # Task duy nhất
     hello_task = PythonOperator(
-        task_id='print_hello',
+        task_id='print_hello_2',
         python_callable=print_hello,
     )
 
